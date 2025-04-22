@@ -1,0 +1,3 @@
+[submodule "app/olimpic_icdar24"]
+	path = app/olimpic_icdar24
+	url = https://github.com/ufal/olimpic-icdar24.git
