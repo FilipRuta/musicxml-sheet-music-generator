@@ -1,5 +1,8 @@
 ## MusicXML sheet music generator
 
+This MusicXML generator was developed as a component of a game designed to help users learn to read music notation. The game
+can be accessed [here](https://github.com/FilipRuta/sight-readia)
+
 ### Installation (For windows)
 
 1. Download the generator from releases.
@@ -24,7 +27,7 @@
    ```
 7. The generator is now functional (CPU-only mode). For GPU acceleration, follow the steps below.
 
-## Optional: Enable GPU Support (NVIDIA)
+### Optional: Enable GPU Support (NVIDIA)
 
 To use your Nvidia GPU for faster generation:
 
@@ -105,3 +108,15 @@ Optional parameters:
 - `--save-normalized` – normalize and save using MuseScore
 - `--seed "lmx token sequence"` – provide an initial seed (e.g., `"measure key:fifths:2 clef:G2 staff:1 clef:F4 staff:2"`)
 - `-h` or `--help` – show all options
+
+
+## References
+
+This generator is built on the foundation of a successful tool for linearizing and delinearizing the MusicXML format, 
+which has significantly influenced and enabled our work. 
+
+Jiří Mayer, Milan Straka, Jan Hajič jr., Pavel Pecina. Practical End-to-End Optical Music Recognition for Pianoform Music.
+*18th International Conference on Document Analysis and Recognition, ICDAR 2024.* 
+Athens, Greece, August 30 - September 4, pp. 55-73, 2024.<br>
+**DOI:** https://doi.org/10.1007/978-3-031-70552-6_4<br>
+**GitHub:** https://github.com/ufal/olimpic-icdar24
